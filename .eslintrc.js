@@ -11,7 +11,9 @@ module.exports = {
     parser: 'babel-eslint'
   },
   rules: {
+    // @ts-ignore
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // @ts-ignore
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
   }
-}
+};
